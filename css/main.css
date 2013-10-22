@@ -1,0 +1,337 @@
+@import url('http://fonts.googleapis.com/css?family=Kreon:300,400,700');
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+	font-family: 'Kreon', Times, serif;
+	font-size: 16px;
+	line-height: 2em;
+}  
+   
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+	background: #fff;
+	color: #231f20;
+}
+
+#intro {
+	overflow: hidden;
+}
+#intro .item {
+	background-position: center center; background-attachment: fixed;
+}
+#intro .carousel-caption {
+	bottom: 50%;
+	font-size: 2.5em;
+	line-height: 1em;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+.carousel-caption {
+	text-shadow: 0 1px 2px rgba(0,0,0,0.9);
+}
+
+#about {
+	padding: 150px 0;
+	background: #f1f1f1;
+	-webkit-box-shadow: inset 0px 2px 9px #222;
+	-moz-box-shadow: inset 0px 2px 9px #222;
+	box-shadow: inset 0px 2px 9px #222;
+}
+#about h2 {
+	display: block;
+	width: 300px;
+	height: 39px;
+	margin: auto;
+	margin-bottom: 15px;
+	background: url('../img/logo/manbake-font-logo.png') no-repeat;
+	text-indent: -9999px;
+}
+
+#beefcakes {
+	padding: 50px 0;
+	padding: 50px 0;
+	background-color: #f1f1f1;
+	box-shadow: inset 0px 1px 10px #222;;
+}
+#beefcakes-intro {
+	background: url('../img/bg-beefcakes.jpg') no-repeat fixed;
+	background-size: cover;
+}
+#beefcakes-intro .container-fluid {
+	display: table;
+	background-color: rgba(255,255,255,0.3);
+	height: 100%;
+}
+#beefcakes-intro .container-fluid .table-cell {
+	display: table-cell;
+	vertical-align: middle;
+	background-color: rgba(255, 252, 255, 0.5);
+}
+#beefcakes-intro h1 {
+	text-align: center;
+}
+#beefcakes-intro h1 img {
+	max-width: 80%;
+}
+#beefcakes-intro .lead {
+	text-align: justify;
+	font-size: 26px;
+	text-shadow: 0 0 5px #fff;
+}
+#beefcakes {
+	background: url('../img/bg.jpg');
+}
+#beefcakes .featured-beefcake-image {
+	text-align: center;
+	padding: 30px 0;
+}
+#beefcakes .featured-beefcake-image img {
+	width: 320px;
+	max-width: 80%;
+}
+#beefcakes .featured-beefcake-title .feature-title {
+	width: 100%;
+	margin: auto;
+}
+#beefcakes .featured-beefcake-title .feature-title h2 {
+	font-family: 'Kreon', Times, serif;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+#beefcakes .beefcake-listing {
+	font-family: 'Kreon', Times, serif;
+	text-align: center;
+	margin-bottom: 10px;
+}
+#beefcakes .beefcake-listing .beefcake-product-img img {
+	max-width: 80%;
+}
+#beefcakes .beefcake-listing .beefcake-product-title {
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 1em;
+}
+#beefcakes .fine p {
+	font-size: 14px;
+}
+#beefcakes a:hover {
+	cursor: pointer;
+}
+.beefcake-product-title a {
+	color: #000;
+	font-size: 18px;
+	line-height: 18px;
+}
+.featured-beekcake-title {
+	margin-bottom: 10px;
+}
+.beefcake-product-price a {
+	color: #000;
+}
+#beefcake-listing {
+	border-top: 2px solid #DAAE6B;
+	border-bottom: 2px solid #DAAE6B;
+	padding: 15px 0 0;
+}
+.beefcake-listing td {
+	border-top: 1px dashed #DAAE6B !important;
+	border-bottom: 1px dashed #DAAE6B;
+	border-right: 1px dashed #DAAE6B;
+}
+.beefcake-listing .top-column td {
+	border-top: none !important;
+}
+.beefcake-listing .bottom-column td {
+	border-bottom: none;
+}
+.beefcake-listing td:last-child {
+	border: none;
+}
+
+#beefcakes .beefcake .col-lg-6 {
+	text-align: center;
+}
+#beefcakes .beefcake h2 {
+	font-family: Kreon, Times, serif;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 26px;
+	line-height: 28px;
+	text-align: left;
+}
+.info {
+	text-align: left;
+}
+.info.price {
+	border-top: 2px solid #DAAE6B;
+	border-bottom: 2px solid #DAAE6B;
+	font-size: 26px;
+	line-height: 2em;
+}
+.info.description {
+	font-size: 20px;
+	line-height: 1.3em;
+	margin-top: 10px;
+}
+.nutrition-facts {
+	padding-top: 20px;
+}
+
+
+#butters-intro {
+	display: none;
+}
+
+#manbake-contact {
+	background: url('../img/bg-contact.jpg') no-repeat fixed;
+	background-size: cover;
+}
+#manbake-contact .container-fluid {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+#manbake-contact .container-fluid .table-cell {
+	background: rgba(0,0,0,0.5);
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+#manbake-contact .container-fluid .table-cell h1 {
+	font-family: Kreon, Times, serif;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #fff;
+	font-size: 4em;
+}
+#manbake-contact .container-fluid .table-cell ul {
+	list-style: none;
+	width: 300px;
+	margin: auto;
+	padding: 0;
+}
+#manbake-contact .container-fluid .table-cell ul li {
+	border-top: 1px solid rgba(255,255,255,0.5);
+}
+#manbake-contact .container-fluid .table-cell ul li:first-child {
+	border-top: none;
+}
+#manbake-contact .container-fluid .table-cell ul li a {
+	color: #fff;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+}
+
+
+footer {
+	background-color: #222;
+	color: #f1f1f1;
+	letter-spacing: 0.1em;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+footer p {
+	padding-top: 10px;
+}
+
+/* ==========================================================================
+   Carousel Fade
+   ========================================================================== */
+.carousel.fade
+{
+    opacity: 1;
+}
+.carousel.fade .item {
+	-moz-transition: opacity ease-in-out .7s;
+    -o-transition: opacity ease-in-out .7s;
+    -webkit-transition: opacity ease-in-out .7s;
+    transition: opacity ease-in-out .7s;
+    left: 0 !important;
+    opacity: 0;
+    top:0;
+    position:absolute;
+    width: 100%;
+    display:block !important;
+    z-index:1;
+}
+.carousel.fade .item:first-child {
+	top: auto;
+	position: relative;
+}
+.carousel.fade .item.active {
+	opacity: 1;
+	-moz-transition: opacity ease-in-out .7s; 
+    -o-transition: opacity ease-in-out .7s;
+    -webkit-transition: opacity ease-in-out .7s;
+    transition: opacity ease-in-out .7s;
+    z-index:2;
+}
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	body {
+		margin: 0 !important;
+		padding: 0 !important;
+		padding-right: 0 !important;
+	}
+	.container-fluid {
+		width: 100%;
+		overflow: hidden;
+	}
+	#intro .carousel-caption {
+		font-size: 1.5em;
+	}
+	#beefcakes-intro {
+		overflow: visible;
+	}
+	#beefcakes-intro {
+		height: 500px !important;
+	}
+	#beefcakes-intro .lead {
+		font-size: 18px;
+	}
+	#beefcakes .beefcake-listing .beefcake-product-title {
+		color: #000;
+		font-size: 12px !important;
+		line-height: 1em;
+	}
+	.beefcake-product-title a {
+		color: #000;
+		font-size: 12px;
+		line-height: 14px;
+	}
+	#beefcake-carousel .carousel-inner {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	#beefcakes .beefcake-listing {
+		font-family: 'Kreon', Times, serif;
+		text-align: center;
+		width: 299px;
+	}
+}
+
+
+
+
+
+
+
