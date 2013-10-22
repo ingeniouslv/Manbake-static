@@ -28,6 +28,7 @@ $(function() {
 	$('#intro, #beefcakes-intro, #butters-intro, #manbake-contact').css({ 'height': wHeight });
 	$('#intro .item').css({ 'height': wHeight+300 });
 	$('#beefcakes').css({ 'min-height': wHeight+100 });
+	$.stellar();
 });
 
 $(document).ready(function() {
