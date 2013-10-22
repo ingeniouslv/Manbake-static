@@ -173,6 +173,8 @@ body {
 	border-bottom: 2px solid #DAAE6B;
 	font-size: 26px;
 	line-height: 2em;
+	text-align: center;
+	text-transform: uppercase;
 }
 .info.description {
 	font-size: 20px;
